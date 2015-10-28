@@ -1,0 +1,22 @@
+Name: toydist
+Version: "1.0"
+Summary: "A toy build system to experiments w/ various PYPA PEP"
+Description: "Too lazy to write one"
+
+Classifiers:
+  - "Development Status :: 3 - Alpha"
+  - "Intended Audience :: Developers"
+  - "License :: OSI Approved :: MIT License"
+  - "Topic :: Software Development :: Build Tools"
+  - "Programming Language :: Python :: 2"
+  - "Programming Language :: Python :: 2.6"
+  - "Programming Language :: Python :: 2.7"
+  - "Programming Language :: Python :: 3"
+  - "Programming Language :: Python :: 3.2"
+  - "Programming Language :: Python :: 3.3"
+  - "Programming Language :: Python :: 3.4"
+  - "Programming Language :: Python :: Implementation :: PyPy"
+
+Packages:
+   - toydist
+   - toydist.distutils
