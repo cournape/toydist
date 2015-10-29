@@ -29,3 +29,7 @@ class PackageDescription(object):
         packages = data.get("Packages", [])
 
         return cls(name, version, summary, description, classifiers, packages)
+
+    @property
+    def distribution_names(self):
+        return self.packages[:]
